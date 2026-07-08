@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <meta name="title" content="Contact">
+    <meta name="description" content="Contact - Nama Orang">
+    <meta name="keywords" content="Portofolio, Contact, HTML, Frontend">
+    <meta name="author" content="Nama Orang">
+
+    <!-- Open Graph -->
+     <meta property="og:title" content="Contact">
+     <meta property="og:description" content="Contact - Nama Orang">
+     <meta property="og:type" content="website">
+     <meta property="og:image" content="../img/profil.jpg">
+
+     <!-- Favicon -->
+      <link rel="icon" href="../img/profil.jpg" type="img/jpg">
+    <title>Contact | Nama Orang</title>
+</head>
+<body>
+    
+    <!-- Navigasi dan icon -->
+    <div class="bagianAtas">
+        <!-- icon -->
+         <div class="icon">
+            <img src="../img/profil.jpg" alt="icon website portofolio" width="40px">
+            <i><b>Portofolio Nama Orang</b></i>
+         </div>
+        
+         <!-- Navigasi -->
+          <nav>
+            <a href="homepage.html">Home</a>
+            <a href="projects.html">Project</a>
+            <a href="articles.html">Articles</a>
+            <a href="contact.html">Contact</a>
+
+            <!-- <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="projects.html">Project</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul> -->
+          </nav>
+    </div>
+
+    <main>
+        <!-- Header -->
+        <header>
+            <h1>Contact | Nama Orang</h1>
+        </header>
+
+        <br>
+
+        <section class="bagiaKiri">
+            <h2>Ingin lebih banyak informasi?</h2>
+            <h3>Hubungi Saya</h3>
+            <p><i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, ipsum.</i></p>
+
+            <br>
+            <section class="informasi">
+                <img src="../img/telp.png" alt="icon telp" width="20px"><b>  Nomor Telp</b>
+                <p>+62-220-290-202</p>
+
+                <img src="../img/email.png" alt="icon email" width="20px"><b> Email</b>
+                <p>namaOrang@gmail.com</p>
+
+                <img src="../img/address.png" alt="icon address" width="20px"><b> Alamat</b>
+                <p>jl. anggrek Jakarta Utara, Indonesia</p>
+            </section>
+        </section>
+
+        <br>
+
+        <section class="bagianKanan">
+            <h2>Kirim Pesan</h2>
+            <p>Isi informasi di bawah ini untuk menghubungi saya</p>
+            <br>
+            <form action="index.php" method="post">
+                 <table cellpadding="7">
+                    <tr >
+                        <td>
+                            <label for="namaDepan">Nama Depan : </label>
+                            <input type="text" placeholder="e.g siti" name="namaDepan" id="namaDepan">
+                        </td>
+                        <td>
+                            <label for="namaBelakang">Nama Belakang : </label>
+                            <input type="text" placeholder="e.g hamilton" name="namaBelakang" id="namaBelakang">
+                        </td>
+                    </tr>
+                    <tr >
+                        <td colspan="2">
+                            <label for="email">Email : </label>
+                            <input type="email" name="email" id="email" placeholder="namaOrang@gmail.com" size="72">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="pesan">Pesan : </label>
+                            <textarea name="pesan" id="pesan" placeholder="Isi pesan disini.." cols="68"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="reset">Atur Ulang</button>
+                            <button type="submit">Kirim</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </main>
+    <br>
+
+    <!-- Footer -->
+     <footer><p>&copy; all rights reserved 2026</p></footer>
+</body>
+</html>
